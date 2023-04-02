@@ -1,7 +1,7 @@
 <x-app-layout>
     <div class="py-12">
         <div class="w-3/4 mx-auto sm:px-6 lg:px-8">
-
+            <h2>Comentarios</h2>
             <form action="{{route('comments.store')}}" method="POST" class="px-6 mb-4">
                 @csrf
 
